@@ -1,0 +1,74 @@
+*{
+margin: 0;/*remove a margem*/
+pading:0;/*remove o preenchimento*/
+box-sizing: border-box; /*faz que o padding e a borda sejam incluídos no tamanho do elemento*/
+
+}
+ /*estilo para o corpo da página*/
+ body{
+    font-family: arial, sans-serif; /*define a fonte padrao da pagina*/
+    background-color: black; /*cor e fundo suave para o corpo*/
+    color: white;/*cor do texto, um tom branco*/
+    line-height: 1.6; /*altura da linha para facilitar a leitura*/
+    padding: 20px; /*espaçamento interno em torno do conteudo*/
+
+ }
+
+ /*estilo para cabeçalho*/
+ header{
+    background-color: blueviolet; /*cor de fundo roxa*/
+    color:black; /*cor de texto preto*/
+    padding: 20px; /*espaçamento interno*/
+    text-align: center; /*centraliza o texto no cabeçalho*/
+
+ }
+
+ /*estilo para titulos dentro do cabeçalho*/
+ header h1{
+    font-size:2.5em; /*tamanho do titulo*/
+    margin-bottom: 10px; /*espaço abaixo do titulo*/
+
+ }
+
+ /*estilo para o paragrafo dentro do cabeçalho*/
+ header p{
+    font-size: 1.2em; /*tamanho da fonte*/
+
+ }
+
+ /*estilo para a area principal do conteudo*/
+ main{
+    max-width: 800px;/*limita a largura maxima da area de conteudo*/
+    margin: 20px auto; /*centraliza o conteudo e adiciona margem*/
+
+ }
+
+ /*estilo para cada seçao dentro do conteudo*/
+ section {
+    margin-bottom: 20px; /*espaçamento abaixo de cada seçao*/
+    padding: 20px;/*espaçamento interno*/
+    background-color: black;/* fundo brnco para as seçoes*/
+    border-radius: 8px; /*bordas arredondadas*/
+    box-shadow: 0 2px 5px pink;/* sombra sutis nas seçoes*/
+
+ }
+
+ /*estilo para os titulo dentro das seçoes*/
+ section h2{
+    color: red; /*cor vrmelha para os titulos*/
+    font-size: 1.8em; /*tamanho do titulo*/
+    margin-bottom: 10px; /*espaçamento abaixo do titulo*/
+
+ }
+
+ /*estilo do rodapé*/
+ footer{
+    background-color: darkgrey; /*fundo escuro para o rodapé*/
+    color: black; /* cor do texto preta*/
+    text-align: center; /*centraliza o texto*/
+    padding: 10px 0; /*espaçamento interno*/
+    position: fixed; /*fixa o rodapé na parte inferior da página*/
+    width: 100%; /* largura do rodapé sera a largura total da pagina*/
+    bottom: 0; /*fixa o rodapé na parte inferior*/
+
+ }
