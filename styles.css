@@ -1,6 +1,6 @@
 *{
 margin: 0;/*remove a margem*/
-pading:0;/*remove o preenchimento*/
+padding:0;/*remove o preenchimento*/
 box-sizing: border-box; /*faz que o padding e a borda sejam incluídos no tamanho do elemento*/
 
 }
@@ -53,7 +53,7 @@ box-sizing: border-box; /*faz que o padding e a borda sejam incluídos no tamanh
 
  }
 
- /*estilo para os titulo dentro das seçoes*/
+ /*estilo para os tAprenda HMTL e css passo a passo.itulo dentro das seçoes*/
  section h2{
     color: red; /*cor vrmelha para os titulos*/
     font-size: 1.8em; /*tamanho do titulo*/
