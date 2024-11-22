@@ -49,7 +49,7 @@ box-sizing: border-box; /*faz que o padding e a borda sejam incluídos no tamanh
     padding: 20px;/*espaçamento interno*/
     background-color: black;/* fundo brnco para as seçoes*/
     border-radius: 8px; /*bordas arredondadas*/
-    box-shadow: 0 2px 5px pink;/* sombra sutis nas seçoes*/
+    box-shadow: 0 2px 5px green;/* sombra sutis nas seçoes*/
 
  }
 
